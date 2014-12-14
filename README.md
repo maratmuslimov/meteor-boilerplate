@@ -12,6 +12,8 @@ Meteor with the following packages:
 The "insecure" package was removed and the basic tree folder is as followed:
 
 <pre>
+├── LICENSE
+├── README.md
 ├── client
 │   ├── helpers
 │   ├── lib
@@ -21,15 +23,25 @@ The "insecure" package was removed and the basic tree folder is as followed:
 │   │       │   ├── css
 │   │       │   ├── js
 │   │       │   └── less
-│   │       └── mrmrs-color
+│   │       ├── main.less
+│   │       └── mrmrs-colors
 │   │           └── less
 │   └── templates
 │       ├── application
+│       │   ├── layout.css
+│       │   ├── layout.html
+│       │   └── layout.js
 │       └── includes
 ├── lib
-│   └── collections
+│   ├── collections
+│   ├── permissions.js
+│   └── router.js
 ├── package
 ├── public
+│   └── images
+└── server
+    ├── fixtures.js
+    └── publications.js
 </pre>
 
 ## Motivation
