@@ -47,4 +47,4 @@ Best to have meteor installed before hand.
 Momday
 
 ## License
-Apache
+MIT
