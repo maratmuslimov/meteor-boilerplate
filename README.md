@@ -11,6 +11,7 @@ Meteor with the following packages:
 
 The "insecure" package was removed and the basic tree folder is as followed:
 
+<pre>
 ├── client
 │   ├── helpers
 │   ├── lib
@@ -29,6 +30,7 @@ The "insecure" package was removed and the basic tree folder is as followed:
 │   └── collections
 ├── package
 ├── public
+</pre>
 
 ## Motivation
 
