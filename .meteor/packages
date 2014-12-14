@@ -8,6 +8,6 @@ autopublish
 accounts-password
 anti:fake
 ian:accounts-ui-bootstrap-3
-less
 iron:router
+less
 
