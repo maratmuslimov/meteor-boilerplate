@@ -2,12 +2,12 @@
 
 This is my meteor boiler plate.
 Meteor with the following packages:
-    accounts-password            Password support for accounts
-    anti:fake                    Random text and data generator
-    autopublish                  Publish the entire database to all clients
-    ian:accounts-ui-bootstrap-3  * Bootstrap-styled accounts-ui with multi-language support.
-    less                         The dynamic stylesheet language
-    meteor-platform              Include a standard set of Meteor packages in your ap
+1. accounts-password            Password support for accounts
+2. anti:fake                    Random text and data generator
+3. autopublish                  Publish the entire database to all clients
+4. ian:accounts-ui-bootstrap-3  * Bootstrap-styled accounts-ui with multi-language support.
+5. less                         The dynamic stylesheet language
+6. meteor-platform              Include a standard set of Meteor packages in your ap
 
 The "insecure" package was removed and the basic tree folder is as followed:
 
