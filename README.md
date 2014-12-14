@@ -2,6 +2,7 @@
 
 This is my meteor boiler plate.
 Meteor with the following packages:
+
 1. accounts-password            Password support for accounts
 2. anti:fake                    Random text and data generator
 3. autopublish                  Publish the entire database to all clients
