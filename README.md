@@ -9,8 +9,12 @@ Meteor with the following packages:
 4. ian:accounts-ui-bootstrap-3  * Bootstrap-styled accounts-ui with multi-language support.
 5. less                         The dynamic stylesheet language
 6. meteor-platform              Include a standard set of Meteor packages in your ap
+7. iron:router
 
 The "insecure" package was removed and the basic tree folder is as followed:
+
+This boilerplate is based on kube css framework and uses mrmrs-colors stylesheets.
+The less source code being located in the sub-directory of the stylesheets.
 
 <pre>
 ├── LICENSE
@@ -60,4 +64,4 @@ Best to have meteor installed before hand.
 Momday
 
 ## License
-MIT
+This is licensed under the MIT license. (http://opensource.org/licenses/MIT)

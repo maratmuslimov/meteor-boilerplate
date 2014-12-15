@@ -13,6 +13,10 @@ if (Meteor.isClient) {
     'click button': function () {
       // increment the counter when button is clicked
       Session.set("counter", Session.get("counter") + 1);
+      $('.btn').addClass('animated bounceOutLeft');
+      /*$('#title').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+          $('#title').remove('animated bounceOutLeft');
+      });*/
     }
   });
 }
