@@ -2,10 +2,19 @@
 <template name="layout">
 
 <head>
-  <title class="site__title">boilerplate</title>
+  <title>boilerplate</title>
 </head>
 
 <body>
+
+<nav class="navbar">
+    <ul>
+      <li><a href="#">Home</a></li>
+        <li class="active"><a href="#">Google</a></li>
+    </ul>
+</nav>
+
+
   <h1 id='title'>Welcome to Meteor!</h1>
 
   <!--{{> hello}}-->
@@ -14,6 +23,7 @@
 <i class="fa fa-cog fa-spin"></i>
   <button class="btn red bg-orange border--blue"><i class="fa fa-cog"></i>Click Me</button>
 <button class="btn"><i class="fa fa-cog"></i> Button</button>
+<i class="fa fa-camera-retro fa-5x"></i> fa-5x
   <p>You've pressed the button {{counter}} times.</p>
 
 <div class="units-row">

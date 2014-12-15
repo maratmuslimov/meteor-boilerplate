@@ -10,6 +10,7 @@ Meteor with the following packages:
 5. less                         The dynamic stylesheet language
 6. meteor-platform              Include a standard set of Meteor packages in your ap
 7. iron:router
+8. pfafman:font-awesome-4
 
 The "insecure" package was removed and the basic tree folder is as followed:
 
@@ -17,8 +18,6 @@ This boilerplate is based on kube css framework and uses mrmrs-colors stylesheet
 The less source code being located in the sub-directory of the stylesheets.
 
 <pre>
-├── LICENSE
-├── README.md
 ├── client
 │   ├── helpers
 │   ├── lib
