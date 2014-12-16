@@ -19,33 +19,23 @@ The less source code being located in the sub-directory of the stylesheets.
 
 <pre>
 ├── client
-│   ├── helpers
-│   ├── lib
+│   ├── js
 │   ├── stylesheets
-│   │   └── vendors
-│   │       ├── kube
-│   │       │   ├── css
-│   │       │   ├── js
-│   │       │   └── less
-│   │       ├── main.less
-│   │       └── mrmrs-colors
-│   │           └── less
+│   │   ├── animate
+│   │   ├── kube
+│   │   │   ├── js
+│   │   │   └── less
+│   │   ├── mrmrs-colors
+│   │   └── normalize
 │   └── templates
-│       ├── application
-│       │   ├── layout.css
-│       │   ├── layout.html
-│       │   └── layout.js
-│       └── includes
+│       ├── includes
+│       └── site
 ├── lib
-│   ├── collections
-│   ├── permissions.js
-│   └── router.js
-├── package
+├── packages
 ├── public
-│   └── images
+│   ├── fonts
+│   └── img
 └── server
-    ├── fixtures.js
-    └── publications.js
 </pre>
 
 ## Motivation
